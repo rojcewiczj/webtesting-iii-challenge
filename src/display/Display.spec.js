@@ -2,6 +2,7 @@
 import React from 'react';
 import { render , fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
+
 import Display from './Display'
 
 test ('locked and closed are set to false', () => {
@@ -45,4 +46,3 @@ expect(getByText('Closed'));
             expect(lockedDisplay).toHaveClass('green-led');
             });
 
-            
