@@ -11,3 +11,6 @@ test ('Dashboard is rendering' , () => {
    render (<Controls />);
 });
 
+test ('provide buttons to toggle the closed and locked states.', () => {
+    const closed
+})
