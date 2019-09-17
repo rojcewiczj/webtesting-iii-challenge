@@ -12,7 +12,7 @@ test ('locked and closed are set to false', () => {
 })
 
 
-test ('diplay if gate is  is locked', () => {
+test ('display if gate is  is locked', () => {
 const { getByText } = render (<Display locked={true} />)
 expect(getByText('Locked'))
 })
